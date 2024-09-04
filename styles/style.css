@@ -5,6 +5,17 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
+/* shared style */
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #0D1321;
+}
+
+
 /* nav style */
 .logo {
   font-size: 28px;
@@ -29,4 +40,36 @@
 }
 .btn:hover {
   cursor: pointer;
+  color: white;
+  background-color: #0D1321;
+}
+
+
+/* banner style */
+.banner-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+.banner {
+  padding: 48px 216px 48px 216px;
+  text-align: center;
+  background-image: url(/assets/Hero-bg.png);
+  max-height: 652px;
+}
+.banner-margin {
+  margin-bottom: 32px;
+}
+.banner-btn {
+  font-family: "Azeret Mono", monospace;
+  border-radius: 5px;
+  background-color: #0D1321;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 17px 24px;
+  border: none;
+}
+.banner-btn:hover {
+  cursor: pointer;
+  background-color: #3c4252;
 }
