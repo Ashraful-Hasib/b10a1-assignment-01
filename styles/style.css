@@ -14,6 +14,7 @@
   line-height: 26px;
   color: #0D1321;
   margin-top: 24px;
+  margin-bottom: 0px;
 }
 .section-title {
   font-size: 32px;
@@ -94,6 +95,7 @@
   margin: 74px 150px;
   background-color: rgba(13, 19, 33, 0.02);
   padding: 80px 97px;
+  border-radius: 16px;
 }
 .alignment {
   text-align: center;
@@ -126,9 +128,34 @@
   text-decoration: none;
   padding: 12px 20px;
   color: rgba(13, 19, 33, 0.7);
+  margin-top: 16px;
 }
 .btn-style:hover {
   cursor: pointer;
   color: white;
   background-color: #0D1321;
+}
+
+
+/* my inspiration section */
+
+.my-inspiration {
+  text-align: center;
+}
+.title {
+  margin: 90px 294px 48px;
+}
+.youtube-video {
+display: flex;
+justify-content: center;
+border: 0.25px solid rgba(13, 19, 33, 0.2);
+padding: 32px;
+margin: 48px 150px;
+border-radius: 16px;
+}
+iframe {
+aspect-ratio: 16 / 8;
+max-width: 1050;
+width: 100%;
+border-radius: 16px;
 }
