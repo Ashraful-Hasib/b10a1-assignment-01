@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
 .azeret-mono {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -200,4 +204,104 @@ border-radius: 16px;
   padding: 40px;
   background-color: rgba(255, 223, 0, 0.05);
   border-radius: 14px;
+}
+
+
+/* next targeted skill */
+
+.next-target {
+  margin: 48px 150px;
+}
+.next-skill {
+  display: flex;
+  gap: 24px;
+  align-items: last baseline;
+  padding: 40px;
+  border: 0.25px solid rgba(13, 19, 33, 0.2);
+  margin-bottom: 22px;
+  border-radius: 14px;
+}
+.skill-title2 {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 08px;
+}
+
+
+/* support sectio */
+
+/* .support-section {
+  padding: 64px 228px;
+  margin: 0px 150px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url(/assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.support-section {
+  padding: 64px 228px;
+  margin: 0px 150px;
+  background: url(/assets/handshake.jpg) rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-radius: 14px;
+}
+.support-title {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: white;
+}
+.support-description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+.support-input {
+  font-family: "Azeret Mono", monospace;
+  padding: 19px 50px 19px 20px;
+  border-radius: 8px;
+  border: none;
+  color: rgba(13, 19, 33, 0.4);
+  width: 350px;
+}
+.support-input:focus {
+ outline: none;
+ color: #0D1321;
+}
+.support-btn {
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 17px 20px;
+  background-color: white;
+  border: none;
+  color: #0D1321;
+  border-radius: 8px;
+}
+.support-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #3c4252;
+}
+
+/* footer style */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px 25px 150px;
+  background-color: rgba(13, 19, 33, 0.03);
+  margin-top: 80px;
+  align-items: center;
+}
+.social-icon {
+  display: flex;
+  gap: 24px;
 }
