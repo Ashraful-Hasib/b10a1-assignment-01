@@ -9,18 +9,22 @@
 
 /* shared style */
 .description {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 24px;
   color: #0D1321;
   margin-top: 24px;
   margin-bottom: 0px;
 }
 .section-title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 900;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.title {
+  margin: 90px 294px 48px;
+  text-align: center;
 }
 
 /* nav style */
@@ -54,7 +58,7 @@
 
 /* banner style */
 .banner-title {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 900;
   line-height: 68px;
 }
@@ -86,7 +90,7 @@
 
 /* why-development */
 .column-title {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
   color: rgba(13, 19, 33, 0.7);
   line-height: 36px;
@@ -96,6 +100,9 @@
   background-color: rgba(13, 19, 33, 0.02);
   padding: 80px 97px;
   border-radius: 16px;
+}
+.dev-section {
+vertical-align: middle;
 }
 .alignment {
   text-align: center;
@@ -139,12 +146,7 @@
 
 /* my inspiration section */
 
-.my-inspiration {
-  text-align: center;
-}
-.title {
-  margin: 90px 294px 48px;
-}
+
 .youtube-video {
 display: flex;
 justify-content: center;
@@ -158,4 +160,44 @@ aspect-ratio: 16 / 8;
 max-width: 1050;
 width: 100%;
 border-radius: 16px;
+}
+
+
+/* targeted skill section */
+.targeted-skill {
+  display: flex;
+  margin: 48px 150px 111px 150px;
+  gap: 24px;
+}
+.skill-title {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.skill-description {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #0D1321;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+.learn-more {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0D1321;
+}
+.skill1 {
+  padding: 40px;
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 14px;
+}
+.skill2 {
+  padding: 40px;
+  background-color: rgba(0, 76, 232, 0.05);
+  border-radius: 14px;
+}
+.skill3 {
+  padding: 40px;
+  background-color: rgba(255, 223, 0, 0.05);
+  border-radius: 14px;
 }
